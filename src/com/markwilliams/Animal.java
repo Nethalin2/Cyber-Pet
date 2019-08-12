@@ -76,7 +76,7 @@ public class Animal {
 
     public void pet() {
         this.mood++;
-        System.out.println(String.format("is happy, mood is %s, hunger is %s, thirst is %s energy is%s", this.mood, this.hunger, this.thirst, this.energy));
+        System.out.println(String.format("is happy, mood is %s, hunger is %s, thirst is %s energy is %s", this.mood, this.hunger, this.thirst, this.energy));
         this.checkPet();
 
     }
